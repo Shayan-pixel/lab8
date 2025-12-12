@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership - Gym Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>GET FIT GYM</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="membership">
+        <h2>Membership Plans</h2>
+        <ul>
+            <li>Basic Plan: $40/month</li>
+            <li>Standard Plan: $60/month</li>
+            <li>Premium Plan: $90/month</li>
+        </ul>
+    </section>
+
+    <section class="membership">
+        <h2>Join Our Gym</h2>
+        <p>Fill out the form below to sign up for a membership. Our team will contact you shortly.</p>
+        
+        <form action="#" method="post" class="admission-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+
+            <label for="membership">Membership Type:</label>
+            <select id="membership" name="membership" required>
+                <option value="basic">Basic Membership</option>
+                <option value="premium">Premium Membership</option>
+                <option value="vip">VIP Membership</option>
+            </select>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Any additional comments or requests"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 GET FIT GYM</p>
+    </footer>
+</body>
+</html>
